@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+@font-face {
+    font-family: Roxborough;
+    src: url(../fonts/RoxboroughCF.ttf);
+}
+
+:root {
+    --primary-color: #eeb6b4;
+    --secondary-color: #7886bc;
+    --tertiary-color: #f5f5f5;
+    --secondary-color-hover: #9399b0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.text-mar{
+    color: var(--primary-color);
+}
+
+.text-mar-secondary{
+    color: var(--secondary-color);
+}
+
+h1,h2,h3,h4{
+    font-family: Roxborough;
+    font-weight: bold;
+}
+
+ul, li, a{
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+p{
+    font-size: 22px;
+}
+
+/* Start Header */
+
+.header {
+    height: 100vh;
+    color: white;
+}
+
+.bg-header {
+    background-image: url('../img/slider/bg-home.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+}
+
+.bg-header-2 {
+    background-image: url('../img/slider/bg-home2.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+}
+
+.bg-header-3 {
+    background-image: url('../img/slider/bg-home3.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+}
+
+.navbar-brand span {
+    color: var(--primary-color);
+    align-items: center;
+    font-family: 'Arizonia', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.navbar-nav li {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--secondary-color);
+    margin-left: 1rem;
+    font-size: 1.15rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+    transition: all ease .5s;
+}
+
+.bg-header .caption h1,
+.bg-header-2 .caption h1,
+.bg-header-3 .caption h1 {
+    font-weight: 900 !important;
+    font-size: 45px;
+    font-family: Roxborough;
+    letter-spacing: 2.5px;
+}
+
+.bg-header .caption p,
+.bg-header-2 .caption p,
+.bg-header-3 .caption p {
+    font-weight: 400;
+    font-size: 25px;
+    color: #f5f5f5
+}
+
+.btn-mar {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 3rem;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-family: Roxborough;
+    letter-spacing: 3px;
+}
+
+.btn-mar:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+.nav-link-btn {
+    display: block;
+    padding: .5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 3rem;
+    transition: all ease .5s;
+}
+
+.nav-link-btn:hover {
+    background-color: white;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-color: var(--primary-color) !important;
+    border: 1.5px solid;
+    transition: all ease .5s;
+}
+
+/* End Header */
+
+/* Section 1 */
+
+.section1 {
+    margin-top: -2rem;
+}
+
+.section1 h1 {
+    color: var(--primary-color);
+    font-family: Roxborough;
+    font-weight: bold;
+}
+
+.section1 p {
+    color: var(--secondary-color);
+}
+
+/* End Section 1 */
+
+/* Section 2 */
+
+.section2 {
+    padding: 180px 80px;
+}
+
+.section2 h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: Roxborough;
+}
+
+.section2 p{
+    color: var(--secondary-color);
+}
+
+img.img-mar {
+    border-top-right-radius: 25rem;
+    border-top-left-radius: 25rem;
+}
+
+.waves{
+    margin-top: -4rem;
+}
+
+.waves img{
+    width: 100%;
+    margin-top: -3rem;
+}
+
+/* End Section 2 */
+
+/* Section 3 */
+
+.section3{
+    padding: 80px;
+    background-color: var(--secondary-color);
+}
+
+.section3 li, p, h1{
+    color: #f5f5f5;
+}
+
+/* End Section 3 */
+
+/* Section 4 */
+
+.section4{
+    padding: 120px 80px;
+}
+
+/* End Section 4 */
+
+/* Footer */
+
+footer{
+    background-color: var(--secondary-color);
+    padding: 40px;
+}
+
+footer span{
+    font-family: Arizonia;
+    color: var(--tertiary-color);
+    font-size: 30px;
+}
+
+.footer-menu a{ 
+    color: var(--tertiary-color)!important;
+    font-size: 14px!important;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu a:hover{ 
+    text-decoration: none;
+}
+
+.design{
+    color: var(--tertiary-color);
+}
+
+.creativotion{
+    color: var(--tertiary-color);
+}
+
+.creativotion:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* End Footer */
+
