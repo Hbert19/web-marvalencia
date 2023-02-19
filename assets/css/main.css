@@ -6,11 +6,6 @@
     src: url(../fonts/RoxboroughCF.ttf);
 }
 
-@font-face {
-    font-family: Playlist Script;
-    src: url(../fonts/Playlist-Script.otf);
-}
-
 :root {
     --primary-color: #ffddda;
     --secondary-color: #b7adcf;
@@ -87,7 +82,7 @@ p{
 .navbar-brand span {
     color: var(--primary-color);
     align-items: center;
-    font-family: Playlist Script;
+    font-family: 'Arizonia', cursive;
     font-weight: 400;
     font-size: 30px;
 }
