@@ -24,25 +24,30 @@ body {
     overflow-x: hidden;
 }
 
-.text-mar{
+.text-mar {
     color: var(--primary-color);
 }
 
-.text-mar-secondary{
+.text-mar-secondary {
     color: var(--secondary-color);
 }
 
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: Roxborough;
     font-weight: bold;
 }
 
-ul, li, a{
+ul,
+li,
+a {
     color: var(--secondary-color);
     font-size: 18px;
 }
 
-p{
+p {
     font-size: 22px;
 }
 
@@ -199,7 +204,7 @@ p{
     font-family: Roxborough;
 }
 
-.section2 p{
+.section2 p {
     color: var(--secondary-color);
 }
 
@@ -208,11 +213,11 @@ img.img-mar {
     border-top-left-radius: 25rem;
 }
 
-.waves{
+.waves {
     margin-top: -4rem;
 }
 
-.waves img{
+.waves img {
     width: 100%;
     margin-top: -3rem;
 }
@@ -221,12 +226,14 @@ img.img-mar {
 
 /* Section 3 */
 
-.section3{
+.section3 {
     padding: 40px;
     background-color: var(--secondary-color);
 }
 
-.section3 li, p, h1{
+.section3 li,
+p,
+h1 {
     color: #f5f5f5;
 }
 
@@ -234,7 +241,7 @@ img.img-mar {
 
 /* Section 4 */
 
-.section4{
+.section4 {
     padding: 120px 20px;
 }
 
@@ -242,37 +249,37 @@ img.img-mar {
 
 /* Footer */
 
-footer{
+footer {
     background-color: var(--secondary-color);
     padding: 40px;
 }
 
-footer span{
+footer span {
     font-family: Arizonia;
     color: var(--tertiary-color);
     font-size: 30px;
 }
 
-.footer-menu a{ 
-    color: var(--tertiary-color)!important;
-    font-size: 14px!important;
+.footer-menu a {
+    color: var(--tertiary-color) !important;
+    font-size: 14px !important;
     display: flex;
     justify-content: center;
 }
 
-.footer-menu a:hover{ 
+.footer-menu a:hover {
     text-decoration: none;
 }
 
-.design{
+.design {
     color: var(--tertiary-color);
 }
 
-.creativotion{
+.creativotion {
     color: var(--tertiary-color);
 }
 
-.creativotion:hover{
+.creativotion:hover {
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -286,11 +293,11 @@ footer span{
 
 /* Header Man */
 
-.header-man{
+.header-man {
     height: 100vh;
 }
 
-.bg-header-man{
+.bg-header-man {
     background-image: url(../img/slider/bg-man.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,5 +308,187 @@ footer span{
 
 /* End Header Man */
 
+/* Man Parallax */
+
+.parallax {
+    height: 50vh;
+    width: 100%;
+}
+
+.parallax-overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100%;
+}
+
+.bg-parallax {
+    background-image: url(../img/parallax/watch-man.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* End Man Parallax */
+
+/* Section Man 1 */
+
+.section-man1 {
+    padding: 15px 15px 120px;
+    background-color: var(--secondary-color);
+}
+
+.section-man1 p {
+    color: var(--tertiary-color);
+}
+
+.section-man1 h1 {
+    color: var(--tertiary-color);
+}
+
+/* End Section Man 1 */
+
+/* Section Man 2 */
+
+.section-man2 {
+    padding: 120px 0;
+}
+
+.section-man2 h1 {
+    color: var(--primary-color);
+}
+
+.section-man2 p {
+    color: var(--secondary-color);
+}
+
+/* End Section Man 2 */
+
+/* Section Man 3 */
+
+.section-man3 {
+    padding: 150px 0px 0px
+}
+
+.section-man3 h1 {
+    color: #222;
+}
+
+/* End Section Man 3 */
+
 /* End Man Page */
 
+
+
+
+/* Woman Page */
+
+/* Header Woman */
+
+.header-woman {
+    height: 100vh;
+}
+
+.bg-header-woman {
+    background-image: url(../img/slider/bg-woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+/* End Header Woman */
+
+/* Section Woman 1 */
+
+.section-woman1 {
+    padding: 120px 40px;
+    background-color: var(--tertiary-color);
+}
+
+.section-woman1 h1,
+p {
+    color: var(--secondary-color);
+}
+
+/* End Section Woman 1 */
+
+/* Section Woman 2 */
+
+.section-woman2 {
+    padding: 120px 40px;
+}
+
+.section-woman2 h1 {
+    color: var(--primary-color);
+}
+
+.section-woman2 p {
+    color: var(--secondary-color);
+}
+
+/* End Section Woman 2 */
+
+/* Section Woman 3 */
+
+.section-woman3 {
+    padding: 120px 40px;
+}
+
+.section-woman3 h1 {
+    color: var(--primary-color);
+}
+
+.section-woman3 p {
+    color: var(--secondary-color);
+}
+
+/* End Section Woman 3 */
+
+/* End Woman Page */
+
+/* Services Page */
+
+/* Header Services */
+
+.header-services {
+    height: 100vh;
+}
+
+.bg-header-services {
+    background-image: url(../img/slider/clothes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+/* End Header Services */
+
+/* Section Services 1 */
+
+.section-services1{
+    padding: 120px 40px;
+    background-color: var(--tertiary-color);
+}
+
+.section-services1 h1{
+    color: var(--secondary-color);
+}
+
+.section-services1 p{
+    color: var(--secondary-color);
+}
+
+.bg-parallax-services {
+    background-image: url(../img/parallax/clothes-services.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* End Section Services 1 */
+
+/* End Services Page */
