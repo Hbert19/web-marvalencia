@@ -492,3 +492,54 @@ p {
 /* End Section Services 1 */
 
 /* End Services Page */
+
+/* Contact Page */
+
+/* Header Contact */
+
+.header-contact{
+    height: 75vh;
+}
+
+.bg-header-contact{
+    background-image: url(../img/slider/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+/* End Header Contact */
+
+/* Section Contact 1 */
+
+.section-contact1{
+    padding: 120px 40px;
+}
+
+.section-contact1 h1{
+    color: var(--secondary-color);
+}
+
+i.fa-brands{
+    color: var(--secondary-color-hover);
+}
+
+.social-icons{
+    line-height: 2;
+}
+
+.social-icons a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.form-group input, .form-group textarea{
+    border-radius: 1rem;
+    resize: none;
+}
+
+/* End Section Contact 1 */
+
+/* End Contact Page */
